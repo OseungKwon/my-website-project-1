@@ -1,0 +1,150 @@
+body{
+    display: block; 
+    background: rgb(32, 32, 32);
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Julius Sans One', sans-serif;
+}
+#wrapper{
+    max-width: 68rem;
+    display: block;
+    margin: 5rem auto;
+}
+#header{
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+#header .menu{
+    background: rgb(32, 32, 32);
+    position: fixed;
+    top: 0; right: 0; left: 0;
+    text-align: right;
+    width: 100%;
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
+    font-size: 2rem;
+    border-bottom: 1px solid white;
+}
+#header .menu a{
+    color: white;
+    text-decoration: none;
+}
+
+#header h1{
+    /*background-color: rgba(255,255,255,0.05);*/
+    color: rgba(255,255,255,0.9);
+    font-size: 5rem;
+    padding: 2rem;
+    margin: 1rem;
+    font-family: sans-serif;
+}
+#header h1 a{
+    color: rgba(255,255,255,0.9);;
+    font-family: 'Poiret One', cursive;
+    text-decoration: none;
+}
+#header #title{
+    color: rgb(204, 167, 46);
+    background-color: rgb(25,25,25);
+    padding: 2rem;
+    margin: 2rem;
+    border: 5px solid black;
+    border-bottom: 5px solid rgb(110, 91, 26);
+
+}
+#header h1::after{
+    content: "";
+    display: block;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    margin: 2rem auto;
+    width: 30rem;
+}
+#main{
+    padding: 2rem;
+}
+.introduce{
+    width: 100%;
+}
+#block{
+    float: left;
+    width: 3rem;
+    height: 15rem;
+    background-color: rgba(255,255,255,0.5);
+    margin-right: 2rem;
+}
+#first{
+    background-color: rgb(27,27,27);
+    padding: 2rem;
+    overflow: hidden;
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+#first img{
+    display: block;
+    max-width: 100%;
+    margin-top: 2rem;
+    border: 3px solid black;
+    width: 50rem;
+    margin: 0 auto;
+}
+#frist div{
+    float: right;
+}
+#first b{
+    color: orangered;
+}
+#download{
+    background-color: rgb(27,27,27);
+    border: 1px solid gold;
+    padding: 1rem;
+    overflow: hidden;
+    color: black;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+#download a{
+    text-decoration: none;
+    color: rgba(255,255,255,0.6);
+}
+#second{
+    border: 1px solid rgba(255,255,255,0.5);
+    overflow: hidden;
+    color: rgba(255,255,255,0.6);
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+b{
+    color: white;
+}
+#second p{
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+#third{
+    border: 1px solid rgba(255,255,255,0.5);
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+#third  #block{
+    height: 15rem;
+}
+
+#third h2{
+    font-size: 3rem;
+}
+#third p{
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+
